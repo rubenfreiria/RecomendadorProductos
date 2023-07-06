@@ -1,0 +1,18 @@
+---
+export interface Props {
+    id: string
+    title: string
+    url: string
+    img: string
+}
+const {
+    id,
+    title,
+    url,
+    img
+} = Astro.props
+---
+
+<a class="flex justify-center items-center h-full bg-white p-4 rounded-xl hover:contrast-125 hover:shadow-xl hover:scale-105 transition-all" href={`/${id}`}>
+    <img class="object-contain h-full w-full" src={img} alt={`Producto: /${id}`}>
+</a>
