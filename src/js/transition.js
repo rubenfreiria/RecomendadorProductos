@@ -13,15 +13,13 @@ if(document.startViewTransition){
                 const text = await response.text()
 
                 //Nos quedamos solo con el contenido de la etiqueta body
-                const data = text.match(/<body[^>]*>([\s\S]*?)<\/body>/i)[1];
-                console.log(data);
+                const [, data] = text.match(/<body>([\s\S]*)<\/body>/i)
                 
                 //Ultilazamos la API de View Transition
                 document.startViewTransition(() => {
-                    //Como tiene que actualizar la vista
-                    //Scroll hacia arriba del todo
+                    // el scroll hacia arriba del todo
                     document.body.innerHTML = data
-                    document.body.scrollTop = 0
+                    document.documentElement.scrollTop = 0
                 })
             }
         })
