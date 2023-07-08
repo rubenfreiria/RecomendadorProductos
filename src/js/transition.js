@@ -24,7 +24,8 @@
             }
         })
     })
-} */
+}
+ */
 
 
 if (document.startViewTransition) {
@@ -41,16 +42,18 @@ if (document.startViewTransition) {
           const response = await fetch(toUrl.pathname);
           const text = await response.text();
   
-          // Nos quedamos solo con el contenido de la etiqueta body
-          const [, data] = text.match(/<body>([\s\S]*)<\/body>/i);
+          // Extraemos el contenido de la etiqueta body utilizando DOMParser
+          const parser = new DOMParser();
+          const htmlDocument = parser.parseFromString(text, 'text/html');
+          const bodyContent = htmlDocument.querySelector('body').innerHTML;
   
           // Utilizamos la API de View Transition
           document.startViewTransition(() => {
-            // Reemplazamos el contenido del body
-            document.body.innerHTML = data;
-  
-            // Desplazamos al inicio de la página
+            // Scrolleamos hacia arriba del todo
             document.documentElement.scrollTop = 0;
+  
+            // Reemplazamos el contenido del body con el nuevo contenido
+            document.body.innerHTML = bodyContent;
           });
         },
       });
