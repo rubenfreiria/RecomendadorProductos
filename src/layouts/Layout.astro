@@ -55,6 +55,7 @@ const { title } = Astro.props;
 	
 					//Nos quedamos solo con el contenido de la etiqueta body
 					const data = text.match(/<body[^>]*>([\s\S.]*)<\/body>/i)[1]
+					const daa2 = text.match(/<body[^>]*>([\s\S]*?)<\/body>/i)[1];
 					
 					//Ultilazamos la API de View Transition
 					document.startViewTransition(() => {
