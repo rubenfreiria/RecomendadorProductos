@@ -1,78 +1,216 @@
 export const items = [
+  /* Moviles */
+  {
+    id: 'pixel-7',
+    type: "movile",
+    title: 'Pixel 7',
+    url: 'https://amzn.to/3XKVWGq',
+    img: 'https://m.media-amazon.com/images/I/614Gij3tGwL._AC_SX679_.jpg',
+    specs: [
+      'Marca: Google',
+      'Nombre del modelo: Pixel 7 128GB',
+      'Operador de servicios inalámbricos: Todas las empresas de transportes',
+      'Sistema operativo: Android',
+      'Tecnología de móvil: 5G',
+      'Capacidad de almacenamiento de memoria: 8 GB',
+      'Tecnología de conectividad: Bluetooth',
+      'Color: Nieve',
+      'Tamaño de pantalla: 6,3 Pulgadas',
+      'Tecnología de red inalámbrica: GSM, LTE'
+    ]
+  },
+  {
+    id: 'mi-12',
+    type: "movile",
+    title: 'Mi 12',
+    url: 'https://amzn.to/3pJsofC',
+    img: 'https://m.media-amazon.com/images/I/51jGDZQL67L._AC_SX679_.jpg',
+    specs: [
+      'Marca: Xiaomi',
+      'Nombre del modelo: Xiaomi 12',
+      'Operador de servicios inalámbricos: Todas las empresas de transportes',
+      'Sistema operativo: MIUI 12',
+      'Tecnología de móvil: 5G',
+      'Capacidad de almacenamiento de memoria: 128 GB',
+      'Tecnología de conectividad: Bluetooth, USB, NFC, Wifi',
+      'Color: Gris',
+      'Tamaño de pantalla: 6,28 Pulgadas',
+      'Tecnología de red inalámbrica: GSM, LTE'
+    ]
+  },
+  {
+    id: 'mi-13',
+    type: "movile",
+    title: 'Mi 13',
+    url: 'https://amzn.to/3PL0SsL',
+    img: 'https://m.media-amazon.com/images/I/51N82jk-ERL._AC_SX679_.jpg',
+    specs: [
+      'Marca: Xiaomi',
+      'Nombre del modelo: Xiaomi 13',
+      'Operador de servicios inalámbricos: Todas las empresas de transportes',
+      'Sistema operativo: MIUI 14',
+      'Tecnología de móvil: 5G',
+      'Capacidad de almacenamiento de memoria: 256 GB',
+      'Tecnología de conectividad: USB',
+      'Color: Negro',
+      'Tamaño de pantalla: 6,36 Pulgadas',
+      'Tecnología de red inalámbrica: GSM, LTE'
+    ]
+  },
+  {
+    id: 'oneplus-10-pro',
+    type: "movile",
+    title: 'OnePlus 10 Pro',
+    url: 'https://amzn.to/43jK53p',
+    img: 'https://m.media-amazon.com/images/I/81lLg4xOGeL._AC_SY741_.jpg',
+    specs: [
+      'Marca: ONEPLUS',
+      'Operador de servicios inalámbricos: Todas las empresas de transportes',
+      'Capacidad de almacenamiento de memoria: 128 GB',
+      'Tecnología de conectividad: Bluetooth, Wifi',
+      'Color: Volcanic Black',
+      'Tamaño de pantalla: 6,7 Pulgadas',
+      'Tecnología de red inalámbrica: GSM, CDMA, LTE',
+      'Tamaño de memoria RAM instalada: 8 GB',
+      'Factor de forma: Smartphone',
+      'Resolución de la cámara trasera: 48 MP'
+    ]
+  },
+  /* Components */
+  {
+    id: 'asus-rx-6700-xt',
+    type: "component",
+    title: 'Asus RX 6700 XT',
+    url: 'https://amzn.to/3D63zO4',
+    img: 'https://m.media-amazon.com/images/I/81sQa37pJ4L._AC_SX425_.jpg',
+    specs: [
+      'Coprocesador de gráficos: AMD',
+      'Marca: ASUS',
+      'Tamaño de la RAM de gráficos: 12 GB',
+      'Velocidad del reloj de GPU: 2520 MHz',
+      'Interfaz de salida de vídeo: DisplayPort, HDMI',
+      'Fabricante del procesador de gráficos: AMD',
+      'Tipo de RAM de gráficos: GDDR6',
+      'Usos recomendados para el producto: Videojuegos',
+      'Componentes incluidos: Tarjeta gráfica',
+      'Dispositivos compatibles: Ordenador de escritorio'
+    ]
+  },
+  {
+    id: 'corsair-vengeance-lpx-32gb',
+    type: "component",
+    title: 'Corsair Vengeance LPX 32GB',
+    url: 'https://amzn.to/3D3wv9k',
+    img: 'https://m.media-amazon.com/images/I/518T3hrUY4L._AC_SX679_.jpg',
+    specs: [
+      'Marca: Corsair',
+      'Tamaño de la memoria del ordenador: 32 GB',
+      'Tecnología de memoria RAM: DDR4',
+      'Velocidad de memoria: 2133 MHz',
+      'Dispositivos compatibles: PC / Server',
+      'Función especial: Refrigeración: disipador de calor.',
+      'Tensión: 1,35 Voltios',
+      'Latencia del estroboscopio de dirección de columna: CL16',
+      'Factor de forma: DIMM',
+      'Color: negro'
+    ]
+  },
+  {
+    id: 'lian-li-o11-dynamic-evo-white',
+    type: "component",
+    title: 'Lian Li O11 Dynamic Evo',
+    url: 'https://amzn.to/3O50fJj',
+    img: 'https://m.media-amazon.com/images/I/51rXeyByRSL._AC_SX425_.jpg',
+    specs: [
+      'Marca: Lian Li',
+      'Tamaño de la memoria del ordenador: 32 GB',
+      'Tecnología de memoria RAM: DDR4',
+      'Velocidad de memoria: 2133 MHz',
+      'Dispositivos compatibles: PC / Server',
+      'Función especial: Refrigeración: disipador de calor.',
+      'Tensión: 1,35 Voltios',
+      'Latencia del estroboscopio de dirección de columna: CL16',
+      'Factor de forma: DIMM',
+      'Color: negro'
+    ]
+  },
+  {
+    id: 'intel-i7-11700k',
+    type: "component",
+    title: 'Intel i7 11700K',
+    url: 'https://amzn.to/46zTCpP',
+    img: 'https://m.media-amazon.com/images/I/51ajiHEOsKL._AC_SX425_.jpg',
+    specs: [
+      'Marca: Intel',
+      'Fabricante de CPU: Intel',
+      'Modelo de CPU: 5X86',
+      'Velocidad de CPU: 1',
+      'Conector de CPU: LGA 1200',
+      'Plataforma: Windows',
+      'Caché secundaria: 16 MB',
+      'Vataje: 125 vatios',
+      'Tamaño de memoria caché: 16 Modificador desconocido',
+      'Recuento de procesadores: 8'
+    ]
+  },
+    /* Clothes */
     {
-      id: 'pixel-7',
-      type: "movile",
-      title: 'Pixel 7',
-      url: 'https://www.amazon.es/Google-Pixel-Factory-Unlocked-Smartphone/dp/B09GPDYMPN/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2SJJUSKGH60DF&keywords=pixel+6&qid=1688663806&sprefix=pixel+6%2Caps%2C159&sr=8-1',
-      img: 'https://m.media-amazon.com/images/I/614Gij3tGwL._AC_SX679_.jpg',
+      id: 'asics-gel-nimbus-25',
+      type: "clothe",
+      title: 'Asics Gel Nimbus 25',
+      url: 'https://amzn.to/44hEVpQ',
+      img: 'https://m.media-amazon.com/images/I/81j23RdYpqL._AC_UX625_.jpg',
       specs: [
-        'Marca: Google',
-        'Nombre del modelo: Pixel 7 128GB',
-        'Operador de servicios inalámbricos: Todas las empresas de transportes',
-        'Sistema operativo: Android',
-        'Tecnología de móvil: 5G',
-        'Capacidad de almacenamiento de memoria: 8 GB',
-        'Tecnología de conectividad: Bluetooth',
-        'Color: Nieve',
-        'Tamaño de pantalla: 6,3 Pulgadas',
-        'Tecnología de red inalámbrica: GSM, LTE'
+        'Material exterior: Sintético',
+        'Revestimiento: Synthetic',
+        'Material de la suela: Caucho',
+        'Cierre: Cordones',
+        'Tipo de tacón: Plano',
+        'Anchura del zapato: Moyen'
       ]
     },
     {
-      id: 'samsumg-LS49AG952NPXEN',
-      type: "component",
-      title: 'SAMSUNG LS49AG952NPXEN',
-      url: 'https://www.amazon.es/SAMSUNG-LS49AG952NPXEN-Mini-LED-FreeSync-Respuesta/dp/B0BRLBTV8P/ref=sr_1_3?keywords=monitor+samsung+49+pulgadas&qid=1688664338&sprefix=monitor+samsung+49%2Caps%2C107&sr=8-3',
-      img: 'https://m.media-amazon.com/images/I/81gf+wgrcfS._AC_UL320_.jpg',
+      id: 'new-balance-1080-v12',
+      type: "clothe",
+      title: 'New Balance 1080 v12',
+      url: 'https://amzn.to/3JPJ2RJ',
+      img: 'https://m.media-amazon.com/images/I/81D1UMuUbpL._AC_UX675_.jpg',
       specs: [
-        'Tamaño de pantalla: 49 Pulgadas',
-        'Marca: SAMSUNG',
-        'Función especial: Pantalla curvada, Hub USB, Montable en pared, Ajuste de altura, Ajuste de inclinación, Ajuste giratorioPantalla curvada, Hub USB, Montable en pared, Ajuste de altura, Ajuste de inclinación, Ajuste giratorio',
-        'Frecuencia de actualización: 240 Hz, 144 Hz',
-        'Tecnología de conectividad: HDMI',
-        'Relación de aspecto: 16:9',
-        'Usos específicos del producto: Juegos',
-        'Tiempo de respuesta: 1 Milisegundos',
-        'Color: Black White',
-        'Total de puertos HDMI: 1'
+        'Material exterior: Hypoknit',
+        'Material de la suela: Caucho',
+        'Cierre: Cordones',
+        'Tipo de tacón: Sin tacón',
+        'Anchura del zapato: Wide'
       ]
     },
     {
-      id: 'GIGABYTE-B550-AORUS-Elite-V2',
-      type: "component",
-      title: 'GIGABYTE B550 AORUS Elite V2',
-      url: 'https://www.amazon.es/Gigabyte-Technology-B550-AORUS-V2/dp/B08MPZ14FY/ref=sr_1_7?crid=2PFCL2GNT3RTU&keywords=placa+base&qid=1688664543&sprefix=placa+base%2Caps%2C99&sr=8-7',
-      img: 'https://m.media-amazon.com/images/I/61cwKDO98rS._AC_SX679_.jpg',
+      id: 'nike-pegasus-39',
+      type: "clothe",
+      title: 'Nike Pegasus 39',
+      url: 'https://amzn.to/3py3wYp',
+      img: 'https://m.media-amazon.com/images/I/81lTSFG2+PL._AC_SX575._SX._UX._SY._UY_.jpg',
       specs: [
-        'Marca: Gigabyte Technology',
-        'Conector de CPU: AM4',
-        'Dispositivos compatibles: Ordenador personal',
-        'Tecnología de memoria RAM: DDR4',
-        'Procesadores compatibles: ryzen',
-        'Tipo de chipset: Intel H61 Express',
-        'Velocidad de reloj de memoria: 4733 MHz',
-        'Plataforma: Windows 10',
-        'Nombre del modelo: B550 AORUS ELITE V2',
-        'Modelo de CPU: A Series A8'
+        'Material exterior: Sintético',
+        'Revestimiento: Tissue',
+        'Material de la suela: Caucho',
+        'Cierre: Cordones',
+        'Tipo de tacón: No Heel',
+        'Anchura del zapato: Normale'
       ]
     },
     {
-      id: 'Ozone-gaming-battle-royale',
-      type: "component",
-      title: 'Teclado Ozone gaming battle royale',
-      url: 'https://www.amazon.es/Ozone-Gaming-OZBATTLERYLSP-Mecanico-silencioso/dp/B09BBHWPVS/ref=sr_1_4?crid=1QEVIWJXEY3ZC&keywords=teclado+ozone+tkl&qid=1688674479&sprefix=%2Caps%2C148&sr=8-4',
-      img: 'https://m.media-amazon.com/images/I/61+rY+za4wL._AC_SX679_.jpg',
+      id: 'nike-vomero-16',
+      type: "clothe",
+      title: 'Nike Vomero 16',
+      url: 'https://amzn.to/43czdnO',
+      img: 'https://m.media-amazon.com/images/I/81HD+6OEJqL._AC_SX575._SX._UX._SY._UY_.jpg',
       specs: [
-        'Marca: Ozone Gaming',
-        'Dispositivos compatibles: Windows / Android / Linux / iOS',
-        'Tecnología de conectividad: USB',
-        'Descripción del teclado: Gaming',
-        'Usos recomendados para el producto: Videojuegos',
-        'Función especial: Teclas de acceso rápido y teclas multimedia',
-        'Color: Negro',
-        'Sistema operativo: Ios,Linux',
-        'Número de teclas: 19',
-        'Compatible con color de retroiluminación de teclado: RGB'
+        'Material exterior: Sintético',
+        'Revestimiento: Sintético',
+        'Material de la suela: Caucho',
+        'Cierre: Cordones',
+        'Tipo de tacón: Plano',
+        'Anchura del zapato: Normale'
       ]
     }
   ];
