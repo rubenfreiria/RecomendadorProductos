@@ -1,12 +1,14 @@
 ---
 export interface Props {
     id: string
+    type: string
     title: string
     url: string
     img: string
 }
 const {
     id,
+    type,
     title,
     url,
     img
@@ -22,3 +24,4 @@ const {
         style={`view-transition-name: item-${id}`}
     />
 </a>
+

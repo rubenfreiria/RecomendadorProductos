@@ -2,22 +2,20 @@
 import Item from "./Item.astro";
 import { items } from "../data/items.js";
 
- 
 ---
 <div class="flex justify-center mt-4 md:mt-6">
 <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {
         items.map(({id, type, title, url, img}) =>{
-            if (type === "movile") {  
-            return(
-                <li class="w-72 h-96">
-                    <Item id={id} type={type} title={title} url={url} img={img} />  
-                </li>
-            )
+            if (type === "component") {  
+                return(
+                    <li class="w-72 h-96">
+                        <Item id={id} type={type} title={title} url={url} img={img} />  
+                    </li>
+                )
             }
         })
       }
-      
 </ul>
 </div>
 

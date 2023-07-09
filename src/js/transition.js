@@ -1,4 +1,4 @@
-if (document.startViewTransition) {
+/* if (document.startViewTransition) {
     window.navigation.addEventListener('navigate', async (event) => {
       const toUrl = new URL(event.destination.url);
   
@@ -29,4 +29,4 @@ if (document.startViewTransition) {
       });
     });
   }
-  
+   */
