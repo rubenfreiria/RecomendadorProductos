@@ -122,16 +122,16 @@ export const items = [
     url: 'https://amzn.to/3O50fJj',
     img: 'https://m.media-amazon.com/images/I/51rXeyByRSL._AC_SX425_.jpg',
     specs: [
-      'Marca: Lian Li',
-      'Tamaño de la memoria del ordenador: 32 GB',
-      'Tecnología de memoria RAM: DDR4',
-      'Velocidad de memoria: 2133 MHz',
-      'Dispositivos compatibles: PC / Server',
-      'Función especial: Refrigeración: disipador de calor.',
-      'Tensión: 1,35 Voltios',
-      'Latencia del estroboscopio de dirección de columna: CL16',
-      'Factor de forma: DIMM',
-      'Color: negro'
+      'Marca: Lian-Li',
+      'Tipo de caja: Full Tower',
+      'Color: Blanco',
+      'Material: Vidrio templado',
+      'Método de refrigeración: Aire',
+      'Nombre del modelo: TORRE ATX LIAN LI O11',
+      'Peso del producto: 13,3 Kilogramos',
+      'Dimensiones del producto (largo x ancho x alto): 46,5 x 28,5 x 45,9 centímetros',
+      'Total de puertos USB: 3',
+      'Dispositivos compatibles: Motherboard, CPU'
     ]
   },
   {
