@@ -212,5 +212,40 @@ export const items = [
         'Tipo de tacón: Plano',
         'Anchura del zapato: Normale'
       ]
-    }
+    },
+    {
+      id: 'vans-ward-hombre',
+      type: "clothe",
+      title: 'Vans Ward Hombre',
+      url: 'https://amzn.to/43l4TXZ',
+      img: 'https://m.media-amazon.com/images/I/71PMM0qNwFL._AC_UX575_.jpg',
+      specs: [
+        'Material exterior: Lona',
+        'Revestimiento: Tela',
+        'Material de la suela: Caucho',
+        'Cierre: Cordones',
+        'Altura del tacón: 2 centímetros',
+        'Tipo de tacón: Plano',
+        'Composición: Piel',
+        'Anchura del zapato: medium'
+      ]
+    },
+    {
+      id: 'levis-housemark-polo',
+      type: "clothe",
+      title: 'Levi\'s Housemark Polo',
+      url: 'https://amzn.to/44j7anP',
+      img: 'https://m.media-amazon.com/images/I/81rp4lZKypL._AC_UX522_.jpg',
+      specs: [
+        'Confeccionado en piqué ligero y transpirable',
+        'Llévalo con una talla más para tener un estilo informal o quédate en tu talla para un estilo clásico',
+        '100% Algodón',
+        'Cierre: Botón',
+        'Lavar a máquina',
+        'Estilo del cuello: Polo',
+        'Manga corta',
+      ]
+    },
+
+
   ];
