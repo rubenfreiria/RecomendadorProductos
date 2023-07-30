@@ -153,6 +153,26 @@ export const items = [
       'Recuento de procesadores: 8'
     ]
   },
+  {
+    id: 'beyer-dynamic-dt770-pro',
+    type: "component",
+    title: 'Beyerdynamic DT770 PRO',
+    url: 'https://amzn.to/3OD8fBP',
+    img: 'https://m.media-amazon.com/images/I/71wFLk3y5vL._AC_SX679_.jpg',
+    specs: [
+      'Marca: beyerdynamic',
+      'Nombre del modelo: Casque beyerdynamic DT 770 PRO (250 Ohm) geschlossener Premium Hifi-Kop 459046',
+      'Color: Negro',
+      'Factor de forma: Supraaurales',
+      'Tecnología de conectividad: Alánbrico',
+      'Funcion especial: Obstrucción (250)',
+      'Componentes incluidos: 1',
+      'Rango de edad: 1',
+      'Material: Acero',
+      'Usos específicos del producto: Profesional'
+    ]
+  },
+
     /* Clothes */
     {
       id: 'asics-gel-nimbus-25',
